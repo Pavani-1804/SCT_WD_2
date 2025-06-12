@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="title-box">
+            <h1>Stop Watch</h1>
+            <p class="using">Using</p>
+            <p class="tech">HTML, CSS</p>
+            <p class="tech">JavaScript</p>
+        </div>
+
+        <div class="right-panel">
+            <div class="spinner">
+                <div class="ring"></div>
+                <div class="timer" id="display">00:00:00.000</div>
+            </div>
+
+            <div class="controls">
+                <button id="startStop">Start</button>
+                <button id="lap">Lap</button>
+                <button id="reset">Reset</button>
+            </div>
+
+            <div class="lap-section" id="lapSection">
+                <ul id="laps"></ul>
+            </div>
+
+            <button id="clearLaps" class="clear-btn">Clear All</button>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
